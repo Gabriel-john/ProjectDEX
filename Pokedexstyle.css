@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: F7D08C;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header{
+    background-color: rgba(181, 30, 30, 1);
+    border: 2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 12%;
+    border-radius: 0px 0px 25px 25px;
+}
+
+#logo{
+    width: 95px;
+    height: 95px;
+    left: 22px;
+    top: 6px;
+    background: #217DBF;
+    border: 2.5px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    margin: 5px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#logo img{
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    cursor: pointer;
+}
+
+#pisca img{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 124px;
+    top: 8px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 328px;
+    margin: 8px;
+    margin-top: 20px;
+
+    background: #6e0101;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.card:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+.telinha{
+    width: 90%;
+    height: 62%;
+    margin-top: 3%;
+    
+}
+
+.pokemonimg{
+    margin-top: 2%;
+    padding: 1px;
+    position: absolute;
+    width: 142px;
+    height: 123px;
+    
+}
+
+.tipo{
+    font-size: 90%;
+    margin-top: 3%;
+    background-color: D9D9D9;
+    padding: 3%;
+    border: 1px solid rgba(43, 42, 42, 0.678);
+    border-radius: 12px; 
+}
+
+.pname{
+    font-size: 90%;
+    margin-top: 3%;
+    background-color: D9D9D9;
+    padding: 3%;
+    border: 1px solid rgba(43, 42, 42, 0.678);
+    border-radius: 12px;
+}
+
+.pnumber{
+    font-size: 80%;
+    margin-top: 7%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1340px) {
+    .pokemonimg{
+        margin-top: 3%;
+    }
+    
+}
+
+@media screen and (max-width: 920px) {
+    .pokemonimg{
+        margin-top: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+    .pokemonimg{
+        margin-top: 8%;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+    header{
+        height: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    .pokemonimg{
+        margin-top: 12%;
+    }
+    
+}
+

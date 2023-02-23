@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: F7D08C;
+    max-width: 1600px;
+    margin:0 auto;
+    padding: 15px;
+}
+
+@font-face {
+    font-family: 'mariods';
+    src: url('Mario-Kart-DS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: rgba(251, 200, 69, 0.57);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid rgba(0, 36, 108, 1);
+    font-family: 'mariods', Times, serif;
+    
+}
+
+#titulo{
+    padding: 1.7%;
+    color: rgba(0, 36, 108, 1);
+    font-size: 150%;
+}
+
+li{
+    display: inline-block;
+    margin: 35px;
+    margin-right: 50px;
+    color: rgba(0, 36, 108, 1);
+    font-size: 200%;
+}
+li:hover {
+    transform: translate(1px, -1px);
+}
+
+
+main{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 7%;
+    padding: 2%;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside img{
+    width: 391px;
+    height: 156px;
+    padding: 1px;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    color: rgba(0, 36, 108, 1);
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 1px black;
+}
+
+button{
+    width: 391px;
+    height: 66px;
+    left: 85px;
+    top: 674px;
+    padding: 17px 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #BC1414;
+    letter-spacing: 1.5px;
+    font-size: 28px;
+    text-align: center;
+    transition: all .3s ease;
+    box-shadow: rgb(0, 0, 0) 0px 10px 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: rgb(0, 0, 0) 0px 7px 0px 0px;
+   }
+   
+   button:active {
+    background-color: #BC1414;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+   }
+
+   @media  screen and (max-width: 1078px) { 
+    header{
+        height: 17%;
+        flex-direction: column;
+        justify-content: unset;
+    }
+    article{
+        display: none;
+    }
+    
+   }
+
+   @media  screen and (max-width: 714px){
+    header{
+        height: 35%;
+        justify-content: unset;
+    }
+
+    li{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    #titulo{
+        font-size: 120%;
+    }
+
+    aside img{
+        width: 248px;
+        height: 100px;
+    }
+
+    button{
+     width: 95%;
+
+    }
+
+   }
+
+
+
+
+
+
